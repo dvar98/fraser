@@ -1,13 +1,3 @@
-///*
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-// */
-package ejercicio.pkg2;
-//
-///**
-// *
-// * @author Mustang
-// */
 public class Lista {
 
     private int[] elementos;
@@ -27,20 +17,17 @@ public class Lista {
     }
 
     public void agregar(int elemento) {
-        int i;
-        for (i = tamano - 1; i >= 0 && elementos[i] > elemento; i--) {
-            elementos[i + 1] = elementos[i];
+        if (tamano < elementos.length) {
+            elementos[tamano] = elemento;
+            tamano++;
         }
-        elementos[i + 1] = elemento;
-        tamano++;
     }
 
     public void ordenar() {
-        int i, j, temp;
-        for (i = 0; i < tamano - 1; i++) {
-            for (j = i + 1; j < tamano; j++) {
+        for (int i = 0; i < tamano - 1; i++) {
+            for (int j = i + 1; j < tamano; j++) {
                 if (elementos[i] > elementos[j]) {
-                    temp = elementos[i];
+                    int temp = elementos[i];
                     elementos[i] = elementos[j];
                     elementos[j] = temp;
                 }
