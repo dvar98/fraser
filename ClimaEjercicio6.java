@@ -1,4 +1,3 @@
-package clima.ejercicio6;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
