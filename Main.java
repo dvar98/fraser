@@ -60,10 +60,15 @@ public class Ejercicio2 {
 //            pila.push(lista.getElemento(i));
 //        }
 //        
-//        int valor =3 ;
 //
 //        System.out.print("Pila con los elementos de la lista ordenada: ");
 //        pila.imprimir();
+         
+//        Cola cola = new Cola(5);
+//        cola.agregarRepetidos(pila, 3);
+//
+//        System.out.print("Cola con los elementos iguales a 3 de la pila: ");
+//        cola.imprimir();
 
     ejercicio2
     
