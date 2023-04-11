@@ -34,41 +34,40 @@ public class Ejercicio2 {
         
         
     ejercicio3
+         
 //        Lista lista = new Lista(5);
 //        lista.agregar(3);
-//        lista.agregar(3);
+//        lista.agregar(4);
 //        lista.agregar(1);
 //        lista.agregar(4);
 //        lista.agregar(2);
 //
 //        System.out.print("Lista sin ordenar: ");
-//        for (int i = 0; i < lista.getTamano(); i++) {
-//            System.out.print(lista.getElemento(i) + " ");
-//        }
-//        System.out.println();
+//        lista.imprimir();
 //
 //        lista.ordenar();
 //
 //        System.out.print("Lista ordenada: ");
-//        for (int i = 0; i < lista.getTamano(); i++) {
-//            System.out.print(lista.getElemento(i) + " ");
-//        }
-//        System.out.println();
-//
+//        lista.imprimir();
+//        
 //        Pilas pila = new Pilas(lista.getTamano());
 //        for (int i = 0; i < lista.getTamano(); i++) {
 //            pila.push(lista.getElemento(i));
 //        }
-//        
 //
 //        System.out.print("Pila con los elementos de la lista ordenada: ");
 //        pila.imprimir();
-         
-//        Cola cola = new Cola(5);
-//        cola.agregarRepetidos(pila, 3);
 //
-//        System.out.print("Cola con los elementos iguales a 3 de la pila: ");
+//        Cola cola = new Cola(5);
+//        cola.agregarRepetidos(pila, 4);
+//
+//        System.out.print("Cola con los elementos iguales a 4 de la pila: ");
 //        cola.imprimir();
+//
+//        pila.retirar(4);
+//
+//        System.out.print("Pila sin los elementos repetidos: ");
+//        pila.imprimir();
 
     ejercicio2
     
