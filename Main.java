@@ -67,33 +67,27 @@ public class Ejercicio2 {
 
     ejercicio2
     
-//        pilas[0].apilar(1);
-//        pilas[0].apilar(2);
-//        pilas[0].apilar(3);
-//        pilas[0].apilar(4);
-//        pilas[0].apilar(5);
-//        pilas[0].apilar(6);
-//        pilas[0].apilar(7);
-//        pilas[0].apilar(8);
+//        Pila[] pilas = new Pila[3];
+//        for (int i = 0; i < 3; i++) {
+//            pilas[i] = new Pila();
+//        }
 //
-//        pilas[1].apilar(9);
-//        pilas[1].apilar(10);
-//        pilas[1].apilar(11);
-//        pilas[1].apilar(12);
-//        pilas[1].apilar(13);
-//        pilas[1].apilar(14);
-//        pilas[1].apilar(15);
-//        pilas[1].apilar(16);
-//
-//        Object datoB = 15;
-//
-//        for (int i = 0; i < 5; i++) {
-//            if (pilas[i].buscar(datoB)) {
-//                System.out.println("Se encontro el dato " + datoB + " en la pila " + i);
-//            } else {
-//                System.out.println("No se encontro el dato " + datoB + " en la pila " + i);
+//        int dato = 1;
+//        while (dato <= 10) {
+//            for (int i = 0; i < pilas.length; i++) {
+//                pilas[i].apilar(dato);
+//                dato++;
 //            }
-//        }    
+//        }
+//
+//        Object datoBuscado = 3;
+//        for (int i = 0; i <4 ; i++) {
+//            if (pilas[i].buscar(datoBuscado)) {
+//                System.out.println("Se encontro el dato " + datoBuscado + " en la pila " + i);
+//            } else {
+//                System.out.println("No se encontro el dato " + datoBuscado + " en la pila " + i);
+//            }
+//        }   
       
     ejercicio1
     
